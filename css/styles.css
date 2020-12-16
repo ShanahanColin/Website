@@ -1,0 +1,79 @@
+body {text-align: center;}
+h1, h2, h3, h4,h5,h6 {font-family: "Montserrat";font-weight: 900;}
+p {font-family: "Montserrat"; color: #8f8f8f; }
+.container-fluid {padding:7% 15%; }
+
+/* Headers */
+.title-heading {font-size: 3.5rem; line-height: 1.5;}
+.ft-header
+.testimonial-heading{font-size: 2.5rem; line-height: 1.5;}
+.pricing-header{font-size: 2.5rem;}
+.p.bundle-header
+.pricing-subhead
+.cta-header{font-weight: 900; font-size: 3.5rem; }
+
+
+/* Sections */
+.colored-section {background-color: #ff4c68; color: white; }
+.white-section{ background-color: #fff;}
+
+
+/* Navigation */
+#title .container-fluid {padding:7% 15%;}
+.navbar {padding-bottom: 4.5rem; padding-top: 1%}
+.navbar-brand {font-family: 'Ubuntu', sans-serif; font-size: 30px;}
+.nav-item {padding: 0 20px; font-size: 1rem; font-family: "Montserrat"; font-weight: 100;}
+.navbar-nav {padding-left: 350px;}
+
+
+/* Titile */
+#title {text-align: left;}
+.iPhoneimg { width: 20%; transform: rotate(25deg); position: absolute; top: 175px; right :200px; }
+.download-button {margin: 5% 3% 5% 0}
+
+
+
+/* Features */
+#features { position: relative;}
+.ft-images {color:#f5a25d; font-size: 50px; padding-bottom: 25px;}
+.ft-images:hover {color: #ff4c68}
+
+
+/* Testimonials */
+#testimonials {background-color: #f5a25d; }
+.testimonials-image {width: 75px; border-radius: 100%; margin: 15px 10px 0;}
+
+
+/* Press  */
+#press {background-color: #f5a25d; }
+.press-logo { width: 20%; margin: 0 15px 10px;}
+
+
+/* Pricing */
+#pricing {padding: 100px;}
+.pricing-column {padding: 3% 2%;}
+
+/* Call To Action */
+
+
+
+/* footer */
+#footer-icons {padding: 7% 0 3% ;}
+.footer-icons {margin: 10px;}
+.footer-icons:hover {color: #f5a25d}
+.footer-p {padding-bottom: 30px;}
+
+
+/* Responsiveness  */
+@media (max-width: 1010px)
+{
+    .iPhoneimg {position: absolute; top: 375px; right: 50px; width: 150px;}
+
+}
+@media (max-width: 675px)
+{
+    .iPhoneimg {position: absolute; top: 500px; right: 50px; width: 150px;}
+}
+@media (max-width: 674px)  {
+    .iPhoneimg {position: static}
+}
